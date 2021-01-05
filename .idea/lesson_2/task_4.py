@@ -2,15 +2,6 @@
 # Вывести каждое слово с новой строки. Строки необходимо пронумеровать.
 # Если в слово длинное, выводить только первые 10 букв в слове.
 
-word = str(input('Enter here your words: '))
-
-for i in word.split(' '):
-    print(i)
-
-
-#     continue
-#   print(i)
-# for i in word:
-#     print(i, end = "")
-#     if i == ',':
-#         print()
+words = input('Enter here your words: ')
+for index, word in enumerate(words.split(' '), 1):
+    print(f'{index}. {word[:10]}')
