@@ -1,1 +1,0 @@
-'Gratulations fragile'
